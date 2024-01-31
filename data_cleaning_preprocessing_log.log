@@ -1,0 +1,136 @@
+2024-01-31 11:57:17,499 - INFO - Script started.
+2024-01-31 12:04:06,444 - INFO - Script started.
+2024-01-31 12:04:06,464 - INFO - Data loaded successfully.
+2024-01-31 12:04:06,464 - INFO - Displaying the first few rows of the dataframe:
+2024-01-31 12:04:06,464 - INFO -     FTI   T3    T4U    TSH   TT4  ...  sex sick thyroid_surgery tumor         class
+0  31.0  4.8  0.475  0.050  32.0  ...    M    f               f     f      Negative
+1  80.0  2.0  0.890  0.015  71.0  ...    F    f               f     f      Negative
+2  98.0  1.4  0.960  5.950  95.0  ...    F    f               f     f  Hyperthyroid
+3  92.0  0.0  0.980  1.700  90.0  ...    M    t               f     f      Negative
+4  92.0  2.5  1.060  0.600  98.0  ...    F    f               f     f      Negative
+
+[5 rows x 22 columns]
+2024-01-31 12:04:36,776 - INFO - Script started.
+2024-01-31 12:04:36,781 - INFO - Data loaded successfully.
+2024-01-31 12:04:36,781 - INFO - Displaying the first few rows of the dataframe:
+2024-01-31 12:04:36,781 - INFO -     FTI   T3    T4U    TSH   TT4  ...  sex sick thyroid_surgery tumor         class
+0  31.0  4.8  0.475  0.050  32.0  ...    M    f               f     f      Negative
+1  80.0  2.0  0.890  0.015  71.0  ...    F    f               f     f      Negative
+2  98.0  1.4  0.960  5.950  95.0  ...    F    f               f     f  Hyperthyroid
+3  92.0  0.0  0.980  1.700  90.0  ...    M    t               f     f      Negative
+4  92.0  2.5  1.060  0.600  98.0  ...    F    f               f     f      Negative
+
+[5 rows x 22 columns]
+2024-01-31 12:05:30,000 - INFO - Script started.
+2024-01-31 12:05:30,017 - INFO - Data loaded successfully.
+2024-01-31 12:05:30,017 - INFO - Displaying the first few rows of the dataframe:
+2024-01-31 12:05:30,017 - INFO -     FTI   T3    T4U    TSH   TT4  ...  sex sick thyroid_surgery tumor         class
+0  31.0  4.8  0.475  0.050  32.0  ...    M    f               f     f      Negative
+1  80.0  2.0  0.890  0.015  71.0  ...    F    f               f     f      Negative
+2  98.0  1.4  0.960  5.950  95.0  ...    F    f               f     f  Hyperthyroid
+3  92.0  0.0  0.980  1.700  90.0  ...    M    t               f     f      Negative
+4  92.0  2.5  1.060  0.600  98.0  ...    F    f               f     f      Negative
+
+[5 rows x 22 columns]
+2024-01-31 12:08:40,574 - INFO - Script started.
+2024-01-31 12:08:40,589 - INFO - Data loaded successfully.
+2024-01-31 12:08:40,589 - INFO - Displaying the first few rows of the dataframe:
+2024-01-31 12:08:40,589 - INFO -     FTI   T3    T4U    TSH   TT4  ...  sex sick thyroid_surgery tumor         class
+0  31.0  4.8  0.475  0.050  32.0  ...    M    f               f     f      Negative
+1  80.0  2.0  0.890  0.015  71.0  ...    F    f               f     f      Negative
+2  98.0  1.4  0.960  5.950  95.0  ...    F    f               f     f  Hyperthyroid
+3  92.0  0.0  0.980  1.700  90.0  ...    M    t               f     f      Negative
+4  92.0  2.5  1.060  0.600  98.0  ...    F    f               f     f      Negative
+
+[5 rows x 22 columns]
+2024-01-31 12:09:19,298 - INFO - Script started.
+2024-01-31 12:09:19,305 - INFO - Data loaded successfully.
+2024-01-31 12:09:19,305 - INFO - Displaying the first few rows of the dataframe:
+2024-01-31 12:09:19,305 - INFO -     FTI   T3    T4U    TSH   TT4  ...  sex sick thyroid_surgery tumor         class
+0  31.0  4.8  0.475  0.050  32.0  ...    M    f               f     f      Negative
+1  80.0  2.0  0.890  0.015  71.0  ...    F    f               f     f      Negative
+2  98.0  1.4  0.960  5.950  95.0  ...    F    f               f     f  Hyperthyroid
+3  92.0  0.0  0.980  1.700  90.0  ...    M    t               f     f      Negative
+4  92.0  2.5  1.060  0.600  98.0  ...    F    f               f     f      Negative
+
+[5 rows x 22 columns]
+2024-01-31 12:28:11,674 - INFO - Loading data...
+2024-01-31 12:28:11,729 - INFO - Displaying initial columns...
+2024-01-31 12:28:11,729 - INFO - Checking for null values...
+2024-01-31 12:28:11,729 - INFO - Dropping unwanted columns...
+2024-01-31 12:28:11,744 - INFO - Displaying the count of '?' in each column...
+2024-01-31 12:28:11,761 - INFO - Count of '?' in each column:
+s_no                            0
+FTI                           802
+T3                           2604
+T4U                           809
+TBG                          8823
+TSH                           842
+TT4                           442
+age                             0
+class                           0
+goitre                          0
+hypopituitary                   0
+lithium                         0
+on_antithyroid_medication       0
+on_thyroxine                    0
+pregnant                        0
+psych                           0
+query_hyperthyroid              0
+query_hypothyroid               0
+query_on_thyroxine              0
+referral_source                 0
+sex                           307
+sick                            0
+thyroid_surgery                 0
+tumor                           0
+dtype: int64
+2024-01-31 12:28:11,761 - INFO - Replacing '?' with 0 in dependent columns...
+2024-01-31 12:28:11,761 - INFO - Dropping rows with '?' in 'sex' column...
+2024-01-31 12:28:11,776 - INFO - Data shape after dropping rows: (8865, 24)
+2024-01-31 12:28:11,777 - INFO - Displaying the count of 0 in each column...
+2024-01-31 12:28:11,782 - INFO - Count of 0 in each column:
+s_no                            0
+FTI                           768
+T3                           2521
+T4U                           775
+TBG                          8534
+TSH                           813
+TT4                           420
+age                             0
+class                           0
+goitre                          0
+hypopituitary                   0
+lithium                         0
+on_antithyroid_medication       0
+on_thyroxine                    0
+pregnant                        0
+psych                           0
+query_hyperthyroid              0
+query_hypothyroid               0
+query_on_thyroxine              0
+referral_source                 0
+sex                             0
+sick                            0
+thyroid_surgery                 0
+tumor                           0
+dtype: int64
+2024-01-31 12:28:11,782 - INFO - Converting numeric columns to numeric types...
+2024-01-31 12:28:11,857 - INFO - Dropping 's_no' and 'TBG' columns...
+2024-01-31 12:28:11,890 - INFO - Checking for duplicates...
+2024-01-31 12:28:11,902 - INFO - Number of duplicates: 0
+2024-01-31 12:28:11,902 - INFO - Viewing 'class' column...
+2024-01-31 12:28:11,903 - INFO - Extracting characters before '[' in 'class' column...
+2024-01-31 12:28:11,907 - INFO - Checking unique values in 'target' column...
+2024-01-31 12:28:11,907 - INFO - Unique values in 'target' column:
+['-' 'G' 'AK' 'N' 'R' 'O' 'M' 'S' 'A' 'B' 'J' 'C' 'K' 'I' 'L' 'Q' 'P' 'F'
+ 'MK' 'GK' 'FK' 'KJ' 'H|K' 'GI' 'C|I' 'OI' 'LJ' 'GKJ' 'MI' 'D' 'E' 'D|R']
+2024-01-31 12:28:11,907 - INFO - Mapping values in 'target' column...
+2024-01-31 12:28:11,918 - INFO - Dropping 'class' column...
+2024-01-31 12:28:11,918 - INFO - Renaming 'target' column to 'class'...
+2024-01-31 12:28:11,918 - INFO - Checking unique values in 'class' column...
+2024-01-31 12:28:11,918 - INFO - Unique values in 'class' column:
+['Negative' 'Hyperthyroid' 'Hypothyroid']
+2024-01-31 12:28:11,918 - INFO - Checking for outliers using boxplot...
+2024-01-31 12:28:12,660 - INFO - Handling outliers...
+2024-01-31 12:28:15,810 - INFO - Cleaned data saved to 'clean_data.csv'
